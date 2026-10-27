@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dokumentasi | Portofolio Digital Seminar PPG</title>
+  <meta name="description" content="Dokumentasi kegiatan praktik mengajar, pembelajaran bengkel otomotif, dan kegiatan sekolah selama PPG.">
+  <meta name="author" content="Wahyudin">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="dokumentasi">
+  <main id="konten">
+    <section class="page-hero">
+      <div class="container page-hero__inner">
+        <span class="chip chip--accent">Dokumentasi Kegiatan</span>
+        <h1>Dokumentasi</h1>
+        <p class="page-hero__lead">Galeri dokumentasi kegiatan selama PPG: praktik mengajar, pembelajaran bengkel otomotif, serta keterlibatan dalam kegiatan sekolah dan seminar.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-bottom:0">
+      <div class="container">
+        <div class="mk-tabs" data-dok-tabs>
+          <button type="button" class="mk-tab is-active" data-dok-tab="foto">Foto</button>
+          <button type="button" class="mk-tab" data-dok-tab="video">Video</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-dok-panel="foto">
+      <div class="container container--wide">
+        <div data-dokumentasi></div>
+      </div>
+    </section>
+
+    <section class="section section--tint" data-dok-panel="video" hidden>
+      <div class="container container--wide">
+        <div class="section-head">
+          <span class="eyebrow">Video</span>
+          <h2>Video Dokumentasi</h2>
+          <p class="lead">Kumpulan video pembelajaran dan dokumentasi kegiatan selama PPG. Klik thumbnail untuk memutar video.</p>
+        </div>
+        <div data-dok-videos></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/site.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/components.js"></script>
+</body>
+</html>
